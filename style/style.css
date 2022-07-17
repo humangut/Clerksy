@@ -281,6 +281,10 @@ nav{
     margin: 28px 0 0;
 }
 
+.section__quality-item p{
+    text-align: center
+}
+
 /* ===section__quality=== */
 
 /* ===section__employees=== */
