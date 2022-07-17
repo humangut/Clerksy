@@ -893,6 +893,14 @@
 
 }
 
+@media (max-width: 480px){
+    
+    .arrow-alt{
+    top: 845px;
+    }
+
+}
+
 @media (max-width: 360px){
 
     .section__advertisment-top-info h3,
