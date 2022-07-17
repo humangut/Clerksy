@@ -1,27 +1,955 @@
-@media (max-width: 1400px){
+@media (max-width: 1500px){
+    
+    .arrow-alt{
+        top: 440px;
+        left: 1350px;
+    }
 
 }
 
 @media (max-width: 1200px){
-    
+
+    .header__inner-left-side h1,
+    .section__advertisment-top-info h3,
+    .section__advertisment-bottom-info h3,
+    .section__advertisment-partners h3,
+    .section__quality-content h2,
+    .section__employees-content h3,
+    .section__scenes-bottom h3,
+    .section__scenes-info h3,
+    .section__book-info h3,
+    .section__clerksy-content h2,
+    .section__email-left-side h2
+    {
+        font-size: 47px;
+        line-height: 50px;
+    }
+
+    .header__inner-left-side p,
+    .section__advertisment-top-info p,
+    .section__advertisment-bottom-info p,
+    .section__email-left-side p
+    {
+        line-height: 25px;
+    }
+
+    .header__inner-right-side img,
+    .section__employees-workers p img,
+    .section__ease-item p img,
+    .section__ease-last p img{
+        width: 100%;
+    }
+
+    .section__advertisment-top p{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .section__advertisment-top p img, 
+    .section__advertisment-bottom p img{
+        width: 80%;
+    }
+
+    .section__quality-item p img{
+        width: 93%;
+    }
+
+    .section__scenes-top p img{
+        width: 90%;
+    }
+
+    .section__scenes-item p img{
+        width: 25%;
+    }
+
+    .section__scenes-second p img{
+        width: 27%;
+    }
+
+    .section__book-content p img{
+        width: 90%;
+    }
+
+    .section__advertisment-top, 
+    .section__advertisment-bottom,
+    .section__scenes-top,
+    .section__book-content{
+        padding: 0 30px;
+    }
+
+    .section__quality-text,
+    .section__employees-text,
+    .section__scenes-info p{
+        line-height: 26px;
+    }
+
+    .section__employees-workers{
+        width: 80%;
+
+        margin: 0 auto;
+    }
+
+    .section__employees-workers p:last-of-type{
+        margin: 15px auto 0;
+    }
+
+    .section__ease-content h3{
+        font-size: 46px;
+        line-height: 52px;
+    }
+
+    .section__scenes-text,
+    .section__ease-content .secion__ease-text{
+        line-height: 27px;
+
+        margin: 20px 0 18px;
+    }
+
+    .section__scenes-item{
+        max-width: 290px
+    }
+
+    .section__scenes-second{
+        max-width: 300px;
+    }
+
+    .section__scenes-item h4,
+    .section__scenes-second h4{
+        font-size: 26px;
+        line-height: 31px;
+    }
+
+    .section__scenes-list li p,
+    .section__scenes-second p{
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .section__scenes-item:first-of-type{
+        padding: 50px 35px 34px;
+    }
+
+    .section__scenes-item:last-of-type{
+        padding: 50px 12px 55px 24px;
+    }
+
+    .section__scenes-second{
+        padding: 50px 28px 55px 38px;
+    }
+
+    .section__ease-info p{
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .section__ease-info h4{
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .section__clerksy-content p{
+        line-height: 26px;
+
+        margin: 25px 0 18px;
+    }
+
+    .fa-facebook-f, .fa-twitter, .fa-invision, .fa-instagram{
+        font-size: 25px;
+    }
+
+    .arrow-alt{
+        top: 435px;
+    }
+
+    .footer{
+        padding: 0 130px;
+    }
+
+    .footer__inner-menu{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer__inner-menu a::after{
+        transform: translateY(1px);
+    }
+
+    .section__advertisment-top, 
+    .section__advertisment-bottom,
+    .section__scenes-top,
+    .section__scenes-items,
+    .section__book-content{
+        justify-content: space-around;
+    } 
+
 }
 
 @media (max-width: 992px){
     
+    .header__inner-content{
+        flex-direction: column;
+    }
+    
+    .header__inner-left-side h1, 
+    .section__advertisment-top-info h3, 
+    .section__advertisment-bottom-info h3, 
+    .section__advertisment-partners h3, 
+    .section__quality-content h2, 
+    .section__employees-content h3, 
+    .section__scenes-bottom h3, 
+    .section__scenes-info h3, 
+    .section__book-info h3, 
+    .section__clerksy-content h2, 
+    .section__email-left-side h2{
+        font-size: 40px;
+        line-height: 47px;
+        
+        text-align: center;
+    }
+    
+    .header__inner-left-side{
+        margin: 5px 0 0;
+    }
+    
+    .header__inner-left-side p{
+        margin: 15px 0;
+    }
+    
+    .header__inner-left-side p, 
+    .section__advertisment-top-info p, 
+    .section__advertisment-bottom-info p, 
+    .section__email-left-side p{
+        font-size: 17px;
+        line-height: 24px;
+        
+        text-align: center;
+    }
+    
+    .section__advertisment{
+        padding: 15px 0 30px;
+    }
+    
+    .section__advertisment-top,
+    .section__scenes-top, 
+    .section__book-content{
+        flex-direction: column;
+    }
+    
+    .section__advertisment-top{
+        margin: 0 0 25px;
+    }
+    
+    .section__advertisment-top-info{
+        margin: 30px 0;
+    }
+    
+    .section__advertisment-bottom-info{
+        margin: 30px 0 0;
+    }
+    
+    .section__advertisment-top-info h3{
+        max-width: 521.03px;
+        
+        margin: 0 0 10px;
+    }
+    
+    .section__advertisment-top-info p,
+    .section__advertisment-bottom-info p{
+        margin: 0 auto;
+    }
+    
+    .section__advertisment-bottom-info h3{
+        max-width: 675.5px;
+        
+        margin: 0 0 10px;
+    }
+    
+    .section__advertisment-partners{
+        margin: 60px 0 0;
+    }
+    
+    .section__advertisment-partners h3{
+        width: max-content;
+    }
+    
+    .section__advertisment-links{
+        width: 100%;
+    }
+    
+    .section__advertisment-partners h3{
+        margin: 25px 0 15px;
+    }
+    
+    .section__quality-text, .section__employees-text, .section__scenes-info p{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    
+    .section__quality{
+        padding-bottom: 80px;
+    }
+    
+    .section__employees{
+        padding: 75px 0 45px;
+    }
+    
+    .section__employees-text{
+        margin-bottom: 20px;
+    }
+    
+    .section__scenes{
+        padding: 75px 0 90px;
+    }
+    
+    .section__scenes-info{
+        margin: 0 0 10px;
+    }
+    
+    .section__scenes-info h3{
+        max-width: 531.27px;
+    }
+    
+    .section__scenes-info p{
+        text-align: center;
+        
+        margin: 0 auto;
+    }
+    
+    .section__scenes-top{
+        margin: 0 0 75px;
+    }
+    
+    .section__scenes-item{
+        max-width: 220px;
+    }
+    
+    .section__scenes-second {
+        max-width: 235px;
+    }
+    
+    .section__scenes-item h4, .section__scenes-second h4 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    
+    .section__scenes-list li p, .section__scenes-second p{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    
+    .section__scenes-item:first-of-type {
+        padding: 43px 35px 34px;
+    }
+    
+    .section__scenes-item:last-of-type {
+        padding: 43px 12px 27.6px 24px;
+    }
+    
+    .section__scenes-second {
+        padding: 43px 28px 35px 38px;
+    }
+    
+    .section__ease {
+        padding: 70px 0;
+    }
+    
+    .section__scenes-text, .section__ease-content .secion__ease-text{
+        line-height: 25px;
+        margin: 20px 0 13px;
+    }
+    
+    .section__ease-info p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    
+    .section__ease-info h4{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    
+    .section__ease-absolution{
+        transform: translateY(30px);
+    }
+    
+    .section__book{
+        padding: 65px 0;
+    }
+    
+    .section__book-info p {
+        font-size: 17px;
+        line-height: 26px;
+        
+        margin: 22px auto 19px;
+    }
+    
+    .section__book-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        margin: 0 0 10px;
+    }
+    
+    .section__clerksy-content h2,
+    .section__clerksy-content p,
+    .section__clerksy-content a{
+        z-index: 4;
+    }
+    
+    .section__clerksy::before,
+    .section__clerksy::after{
+        z-index: 3;
+    }
+    
+    .section__clerksy-content p{
+        font-size: 17px;
+        line-height: 24px;
+    }
+    
+    .section__email-right-side a{
+        transform: translateX(-58px);
+    }
+    
+    .section__email {
+        padding: 45px 0;
+    }
+    
+    .footer__inner-bottom-side{
+        flex-direction: column;
+        align-items: center;
+        
+        margin: 7px 0;
+        padding: 10px 0;
+    }
+    
+    .footer__inner-menu{
+        margin: 15px 0 0;
+    }
+
+    .section__advertisment-links a{
+        width: 33%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__inner-right-side{
+        display: flex;
+        justify-content: center;
+    }
+
+    .header__inner-right-side img{
+        width: 80%;
+    }
+
+    .section__advertisment-top p,
+    .section__advertisment-bottom p{
+        display: flex;
+        justify-content: center;
+    }
+
+    .section__advertisment-top p img,
+    .section__advertisment-bottom p img{
+        width: 75%;
+    }
+
+    .section__quality-content h2{
+        margin: 0 0 60px;
+    }
+
+    .section__quality-item p img{
+        width: 82%;
+    }
+
+    .section__employees-workers p{
+        display: flex;
+        justify-content: center;
+    }
+
+    .section__employees-workers p img{
+        width: 100%;
+    }
+
+    .section__scenes-top p{
+        display: flex;
+        justify-content: center;
+    }
+
+    .section__scenes-top p img{
+        width: 80%;
+    }
+
+    .section__scenes-item p img{
+        width: 35%;
+    }
+
+    .section__scenes-second p img{
+        width: 35%;
+    }
+
+    .section__book-content p{
+        display: flex;
+        justify-content: center;
+    }
+
+    .section__book-content p img{
+        width: 85%;
+    }
+
+    .section__employees-workers {
+        width: 100%;
+    }
+
+    .section__advertisment-bottom{
+        flex-direction: column-reverse;
+    }
+
+    .section__clerksy::before{
+        height: 320px;
+
+        left: -75px;
+    }
+
+    .section__clerksy::after{
+        height: 320px;
+
+        right: -100px;
+    }
+    
+
+    
+}
+
+@media (max-width:960px){
+
+    .section__advertisment-links{
+        flex-direction: column;
+    }
+
+    .section__advertisment-links a{
+        display: none;
+    }
+
+    .section__advertisment-links a:first-of-type{
+        display: flex;
+    }
+
 }
 
 @media (max-width: 768px){
-    
+
+    .header__inner-left-side h1,
+    .section__advertisment-top-info h3,
+    .section__advertisment-bottom-info h3,
+    .section__advertisment-partners h3,
+    .section__quality-content h2,
+    .section__employees-content h3,
+    .section__scenes-bottom h3,
+    .section__scenes-info h3,
+    .section__book-info h3,
+    .section__clerksy-content h2,
+    .section__email-left-side h2{
+        font-size: 39px;
+        line-height: 46px;
+    }
+
+    .header__inner-left-side p,p{
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .section__advertisment-top-info p, 
+    .section__advertisment-bottom-info p, 
+    .section__email-left-side p{
+        font-size: 17px;
+    }
+
+    .section__advertisment-top p img,
+     .section__advertisment-bottom p img{
+        width: 72%;
+    }
+
+    .section__quality-text, 
+    .section__employees-text,
+     .section__scenes-info p{
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .section__scenes-top p img{
+        width: 75%;
+    }
+
+    .section__scenes-items{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section__scenes-item,
+    .section__scenes-second{
+        max-width: 455px;
+    }
+
+    .section__scenes-second{
+        margin: 30px 0;
+    }
+
+    .section__scenes-item p img{
+        width: 20%;
+    }
+
+    .section__scenes-list li p{
+        font-size: 17px;
+        line-height: 19px;
+    }
+
+    .section__ease-items{
+        flex-direction: column;
+    }
+
+    .section__ease-item:nth-of-type(2){
+        margin: 10px 0;
+    }
+
+    .section__ease-absolution {
+        transform: translateY(48px);
+    }
+
+    .section__book-content p img{
+        width: 80%;
+    }
+
+    .section__clerksy::before {
+        height: 280px;
+    }
+
+    .section__scenes-text, 
+    .section__ease-content,
+     .secion__ease-text{
+        font-size: 17px;
+    } 
+
+    .section__email-content{
+        flex-direction: column;
+    }
+
+    .section__email-left-side h2{
+        margin: 0 0 10px;
+    }
+
+    .section__email-left-side{
+        margin: 0 0 30px;
+    }
+
+    .section__ease-info p{
+        font-size: 17px;
+    }
+
+    .section__clerksy {
+        padding: 90px 0;
+    }
+
+    .footer__inner-top-side{
+        flex-direction: column;
+    }
+
+    .footer__inner-top-side h3{
+        margin: 15px 0;
+    }
+
+    .footer {
+        padding: 0 30px;
+    }
+
+    .section__scenes-second p img{
+        width: 25%;
+    }
+
+    .header__inner-right-side img{
+        width: 90%;
+    }
+
+    .footer__inner-bottom-side p{
+        text-align: center;
+    }
+
+    .section__email-right-side p{
+        text-align: center;
+    }
+
+
+    .section__advertisment-partners{
+        padding: 0;
+    }
+
 }
 
 @media (max-width: 576px){
+
+    .navbar{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navbar__menu{
+        margin: 15px 0 0;
+    }
+
+    .header__inner-left-side h1{
+        font-size: 38px;
+        line-height: 45px;
+    }
+
+    .header__inner-right-side img{
+        width: 100%;
+    }
+
+    .section__advertisment-top p img, 
+    .section__advertisment-bottom p img{
+        width: 80%;
+    }
+
+    .section__advertisment-top-info h3, 
+    .section__advertisment-bottom-info h3,
+    .section__advertisment-partners h3{
+        font-size: 32px;
+        line-height: 40px;
+    }
     
+
+    .section__advertisment-top-info p, 
+    .section__advertisment-bottom-info p,
+     .section__email-left-side p{
+        font-size: 16px;
+    }
+
+    .section__quality-content h2,
+    .section__employees-content h3,
+    .section__scenes-info h3,
+    .section__scenes-bottom h3,
+    .section__book-info h3,
+    .section__clerksy-content h2,
+    .section__email-left-side h2{
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+    .section__quality-text,
+     .section__employees-text,
+      .section__scenes-info p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .section__quality-item p img{
+        width: 75%;
+    }
+
+    .section__scenes-top p img{
+        width: 83%;
+    }
+
+    .section__scenes-list li p{
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .section__ease-content h3{
+        font-size: 44px;
+        line-height: 50px;
+    }
+    
+    .section__scenes-text, 
+    .section__ease-content,
+     .secion__ease-text{
+        text-align: center;
+     }
+
+     .section__ease-info h4{
+        font-size: 23px;
+        line-height: 27px;
+    }
+
+    .section__book-content p img{
+        width: 85%;
+    }
+
+    .footer{
+        padding: 0px 15px;
+    }
+
+    .section__clerksy::before{
+        height: 240px;
+    }
+
+    .section__clerksy::after{
+        height: 285px;
+    }
+
+    .section__advertisment-partners{
+        padding: 0;
+    }
+
 }
 
 @media (max-width: 480px){
 
+    .navbar__menu{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navbar__menu a{
+        margin: 15px 0 0 14px;
+    }
+
+    .header__inner{
+        padding-top: 60px;
+    }
+
+    .header__inner-left-side h1{
+        font-size: 36px;
+        line-height: 43px;
+    }
+
+    .section__advertisment-top p img, 
+    .section__advertisment-bottom p img{
+        width: 100%;
+    }
+
+    .section__quality-services{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section__quality-item{
+        margin: 15px 0 0;
+    }
+
+    .section__employees-workers{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section__employees-workers p img{
+        width: 60%;
+    }
+
+    .section__scenes-top p img{
+        width: 100%;
+    }
+
+    .section__scenes-item p img{
+        width: 25%;
+    }
+
+    .section__scenes-second p img{
+        width: 30%;
+    }
+
+    .section__scenes-item h4, 
+    .section__scenes-second h4{
+        font-size: 21px;
+        line-height: 26px;
+    }
+
+    .section__scenes-list li p{
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .section__ease-content h3{
+        font-size: 38px;
+        line-height: 45px;
+    }
+
+    .section__book-content p img{
+        width: 100%;
+    }
+
+    .section__clerksy-content p{
+        text-align: center;
+    }
+
+    .section__clerksy {
+        padding: 60px 0;
+    }
+
+    .section__clerksy::before,
+    .section__clerksy::after{
+        width: 0;
+        height: 0;
+    }
+
+    .section__employees-workers p{
+        display: none;
+    }
+
+    .section__employees-workers p:first-of-type{
+        display: flex;
+    }
+
 }
 
 @media (max-width: 360px){
+
+    .section__advertisment-top-info h3,
+     .section__advertisment-bottom-info h3{
+        font-size: 28px;
+        line-height: 33px;
+    }
+
+    .section__advertisment-partners{
+        padding: 0;
+    }
+
+    .section__advertisment-partners h3{
+        font-size: 25px;
+    }
+
+    .section__quality-content h2, 
+    .section__employees-content h3,
+     .section__scenes-info h3,
+      .section__scenes-bottom h3,
+       .section__book-info h3,
+        .section__clerksy-content h2,
+         .section__email-left-side h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .section__employees-content h3{
+        font-size: 31px;
+    }
+
+    .section__ease-content h3{
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .section__ease-info p{
+        font-size: 16px;
+    }
+
+    .section__book-info h3{
+        font-size: 30px;
+    }
+
+    .section__book-content p{
+        font-size: 16px;
+        line-height: 24px;
+
+        text-align: center;
+    }
+
+    .section__quality{
+        padding-bottom: 30px;
+    }
+
+    .section__ease{
+        padding: 45px 0;
+    }
 
 }

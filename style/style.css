@@ -17,7 +17,6 @@ body{background: #fff; font-family: 'Noto Sans';font-weight: 400;}
 
 header{
     background: var(--cDarkGreen);
-    min-height: 100vh;
 }
 
 /* ===nav=== */
@@ -34,8 +33,6 @@ nav{
 .navbar__menu{
     display: flex;
     align-items: center;
-
-    padding: 0 10px 0 239px;
 }
 
 .navbar__menu a{
@@ -76,9 +73,9 @@ nav{
 }
 
 .navbar__menu-link:hover::after{
-    background: #F7BC28;
-
     width: 100%;
+
+    background: #F7BC28;
 }
 
 .navbar__menu-btn{
@@ -214,7 +211,7 @@ nav{
     font-size: 48px;
     line-height: 54px;
 
-    margin: 66px;
+    margin: 66px 0;
 }
 
 .section__advertisment-links{
@@ -666,6 +663,8 @@ nav{
 
     position: relative;
     
+    overflow: hidden;
+    
     padding: 120px 0;
 }
 
@@ -774,8 +773,6 @@ nav{
 }
 
 .section__email-info{
-    position: relative;
-
     margin: 15px 0;
 }
 
@@ -833,17 +830,40 @@ nav{
     line-height: 21px;
 }
 
-.section__email-right-side a{
+.section__email-right-side  a{
     color: var(--cLightGreen);
 
-    position: absolute;
-    bottom: 0;
-    right: 0;
-
-    transform: translateX(-176px);
+    position: relative;
 
     font-size: 14px;
     line-height: 21px;
+
+    margin: 0 0 0 5px;
+}
+
+.section__email-right-side a::after{
+    content: '';
+
+    width: 0;
+    height: 2px;
+
+    background: transparent;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    border-radius: 23px 23px 0 0;
+
+    transform: translateY(5px);
+
+    transition: .3s;
+}
+
+.section__email-right-side a:hover::after{
+    width: 100%;
+
+    background: #FBC8B8;
 }
 
 /* ===section__email=== */
@@ -911,8 +931,6 @@ nav{
 .footer__inner-menu{
     display: flex;
     align-items: center;
-
-    padding: 0 0 0 187px;
 }
 
 .footer__inner-menu a{
@@ -964,8 +982,8 @@ nav{
     color: #000000;
 
     position: sticky;
-    top: 700px;
-    left: 1450px;
+    top: 705px;
+    left: 1410px;
 
     font-size: 35px;
 
